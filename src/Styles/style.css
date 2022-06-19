@@ -1,0 +1,125 @@
+.shiny-orange {
+ 
+    -fx-background-color: 
+        #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+.shiny-orange:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+.flat{
+    
+     
+  -fx-outline: none;
+  -fx-text-decoration: none;
+  
+ 
+  -fx-background-color: gray;
+  -fx-border-width: 1px;
+  -fx-border-style: solid;
+  -fx-border-radius: 0px;
+  -fx-color: #1d89ff;
+  
+  
+}
+.flat:hover{
+    
+    -fx-opacity: 0.4;
+    
+}
+.selectedFlat{
+    
+     -fx-opacity: 0.4;
+      -fx-outline: none;
+  -fx-text-decoration: none;
+  
+ 
+  -fx-background-color: gray;
+  
+   -fx-border-width: 1px;
+  -fx-border-style: solid;
+  -fx-border-radius: 0px;
+  -fx-color: #1d89ff;
+  
+}
+.rectangle{
+    
+     -fx-background-color: gray;
+  
+}
+.error{
+    
+    -fx-background-color: red;
+}
+.Mylabel{
+    -fx-text-fill: #a86b32;
+    -fx-font-size: 20px;
+    
+}
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+.scroll-pane
+{
+    -fx-background-color: transparent;
+    -fx-border-color: derive(gray, 100%);
+    -fx-padding: 0px;
+}
+
+.scroll-pane .scroll-bar:vertical
+{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+
+}
+
+.scroll-pane .scroll-bar:vertical .track
+{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-border-radius: 2em;
+}
+
+.scroll-pane .scroll-bar:horizontal .decrement-button
+{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 0 10 0;
+
+}
+
+.scroll-pane .scroll-bar:vertical .decrement-button
+{
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 10 0 0;
+}
+
+.scroll-pane .scroll-bar .increment-arrow,
+.scroll-pane .scroll-bar .decrement-arrow
+{
+    -fx-padding: -2;
+
+
+}
+
+.scroll-pane .scroll-bar:vertical .thumb
+{
+    -fx-background-color: derive(black,90%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}
